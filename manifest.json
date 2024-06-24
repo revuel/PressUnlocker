@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "PressUnlocker",
+    "version": "1.0",
+    "description": "Unlocks content on specified domains",
+    "permissions": [
+        "scripting",
+        "webNavigation",
+        "tabs",
+        "activeTab",
+        "http://*/",
+        "https://*/"
+    ],
+    "host_permissions": [
+        "scripting",
+        "webNavigation",
+        "tabs",
+        "activeTab",
+        "http://*/",
+        "https://*/"
+        ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
