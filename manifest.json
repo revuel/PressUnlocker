@@ -8,7 +8,6 @@
         "webNavigation",
         "tabs",
         "activeTab",
-        "http://*/",
         "https://*/"
     ],
     "host_permissions": [
@@ -16,7 +15,6 @@
         "webNavigation",
         "tabs",
         "activeTab",
-        "http://*/",
         "https://*/"
         ],
     "icons": {
